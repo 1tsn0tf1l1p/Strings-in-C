@@ -21,7 +21,7 @@ int main()
     char novi[SIZE] = "", partition[SIZE] = "";
     char *token = strtok(str, "-");
 
-    while (token)
+    while (token != NULL)
     {
         int k = 0;
         for (int i = 0; i < strlen(token); i++)
